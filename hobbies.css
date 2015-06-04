@@ -1,0 +1,196 @@
+html{
+	visibility: hidden;
+}
+
+
+body{
+	
+
+	background: -webkit-linear-gradient(blue, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(blue, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(blue, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(blue, black); /* Standard syntax (must be last) */	
+	margin: 0px;
+	padding:0px;
+}
+
+
+#sidebar{
+	min-width: 250px;
+	max-width: 250px;
+	float: left;
+	position: fixed;
+	background:
+	radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px;
+	min-height: 100%;
+	border-right: solid black 5px;
+	z-index:2;
+}
+
+#spacer{
+ 	min-height: 50px;
+ 	min-width: 100%;
+ 	
+ 	background: -webkit-linear-gradient(grey, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(grey, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(grey, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(grey, blue); /* Standard syntax (must be last) */
+ 	
+}
+
+#pageFill{
+	
+	min-height:100%;
+	min-width: 100%;
+	max-width:100%;
+	
+	margin-left:250px;
+	
+	
+}
+
+#logTheeOut{
+	
+	color:black;
+	min-width: 200px;
+	min-height:55px;
+	margin-right:300px;
+	padding: 15px;
+	float:right;
+	font-size: 20px;
+	background: -webkit-linear-gradient(white, grey); background: -o-linear-gradient(white, grey); 
+    background: -moz-linear-gradient(white, grey); background: linear-gradient(white, grey);
+	border-color: black;
+	border-style: solid;
+	margin-left: 20px;
+	border-radius: 20px;
+	z-index:1;
+	margin-bottom: 50px;
+}
+
+#mainContent{
+	float:left;
+	margin-left: 50px;
+	background-color: ivory;
+	min-width: 1100px;
+	max-width: 55%;
+	z-index:1;
+	background: -webkit-linear-gradient(white, grey); background: -o-linear-gradient(white, grey); 
+    background: -moz-linear-gradient(white, grey); background: linear-gradient(white, grey);
+	border-color: black;
+	border-style: solid;
+	border-radius: 20px;
+	padding: 30px;
+	margin-bottom:60px;
+	font-size: 18px;
+}
+
+#enterSuggestion{
+	float:left;
+	margin-left: 50px;
+	background-color: ivory;
+	min-width: 55%;
+	max-width: 55%;
+	z-index:1;
+	background: -webkit-linear-gradient(white, grey); background: -o-linear-gradient(white, grey); 
+    background: -moz-linear-gradient(white, grey); background: linear-gradient(white, grey);
+	border-color: black;
+	border-style: solid;
+	border-radius: 20px;
+	padding: 30px;
+	margin-bottom:60px;
+	font-size: 18px;
+}
+
+#suggestionsList{
+	float:left;
+	margin-left: 50px;
+	background-color: ivory;
+	min-width: 55%;
+	max-width: 55%;
+	z-index:1;
+	background: -webkit-linear-gradient(white, grey); background: -o-linear-gradient(white, grey); 
+    background: -moz-linear-gradient(white, grey); background: linear-gradient(white, grey);
+	border-color: black;
+	border-style: solid;
+	border-radius: 20px;
+	padding: 30px;
+	margin-bottom:60px;
+	font-size: 18px;
+}
+
+#hiddenSection{
+	display:none;
+}
+
+#mycode{
+	margin-top: 10px;
+	border-color: black;
+	border-style: solid;
+	margin-left: 20px;
+}
+
+#pictures{
+	margin-top: 10px;
+	border-color: black;
+	border-style: solid;
+	margin-left: 20px;
+
+}
+
+#mycode{
+	border-color: black;
+	border-style: solid;
+}
+
+#feedback1{
+	margin-top: 20px;
+	width: 90%;
+	max-width: 95%;
+	min-height: 100px;
+	border-color: dimgrey;
+	border-style: solid;
+	border-radius: 20px;
+	padding: 20px;
+	overflow: hidden;
+	background-color: ivory;
+}
+
+#feedback2{
+	margin-top: 20px;
+	width: 90%;
+	max-width: 95%;
+	min-height: 100px;
+	border-color: dimgrey;
+	border-style: solid;
+	border-radius: 20px;
+	padding: 20px;
+	overflow: hidden;
+	background-color: ivory;
+}
+
+#feedback3{
+	margin-top: 20px;
+	width: 90%;
+	max-width: 95%;
+	min-height: 100px;
+	border-color: dimgrey;
+	border-style: solid;
+	border-radius: 20px;
+	padding: 20px;
+	overflow: hidden;
+	background-color: ivory;
+}
+
+#currentPicture{
+	margin-top: 10px;
+	border-color: yellow;
+	border-style: solid;
+	margin-left: 20px;
+
+}

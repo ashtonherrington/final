@@ -1,0 +1,105 @@
+body{
+	background:
+	radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px;
+	min-width:1000px;
+	min-height:1000px;
+	margin: 0px;
+	padding:0px;
+}
+
+#login{
+	float:right;
+	margin-right:30px;
+	width:400px;
+	min-height: 30%;
+	background-color: ivory;
+	padding: 30px;
+	border-color: royalblue;
+	border-style: solid;
+	border-radius: 20px;
+	margin-top: 30px;
+}
+
+#guestLogin{
+	float:left;
+	margin-left:30px;
+	width:200px;
+	height: 70px;
+	background-color: ivory;
+	padding: 20px;
+	padding-left:40px;
+	border-color: royalblue;
+	border-style: solid;
+	border-radius: 20px;
+	margin-right: 150px;
+	margin-top: 60px;
+
+}
+
+#welcome{
+	text-align:center;
+	float:right;
+	width:40%;
+	margin-top: 50px;
+	margin-right:10%;
+}
+
+#spacer{
+ 	min-height: 50px;
+ 	min-width: 100%;
+
+ 	background: -webkit-linear-gradient(grey, rgb(0,0,234)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(grey, rgb(0,0,234)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(grey, rgb(0,0,234)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(grey, rgb(0,0,234)); /* Standard syntax (must be last) */
+ 	float: left;
+
+
+ 	
+}
+
+#welcomepic{
+	width:100%;
+}
+
+#pageFill{
+	
+	position:fixed;
+	left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    min-width:100%;
+    min-height:60%;
+    max-height:60%;
+	background: -webkit-linear-gradient(blue, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(blue, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(blue, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(blue, black); /* Standard syntax (must be last) */
+	float:right;
+
+}
+
+#dynamicSection{
+	
+	color:white;
+	width: 450px;
+	height:300px;
+	margin-left:50px;
+	padding: 30px;
+	float:right;
+	font-size: 20px;
+}
+
+#hiddenSection{
+	display:none;
+}
+
+#loginButton{
+	height:40px;
+	font-size:16px;
+}

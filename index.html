@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">    
+   <link rel="stylesheet" type="text/css" href="index.css">
+   <script src="index_functions.js"></script>   
+   <title>Welcome to my homepage</title> 
+</head>
+<body>
+   
+   <div id="login">
+      <font size="2">(Username/Password) have only been provided to prospective employers. <br>Due to the code shared on this page, which could be used for many <br>assignments in the Oregon State University, certain content is private.</font><br><br>
+      <form name="inputform" action="index_repsonse.php" method="POST">
+         <input type="text" name="username" min="6"> Please enter your username<br><br>
+         <input type="password" name="password" pattern=".{4,}"> Please enter your password<br><br>
+         <input type="button" id="loginButton" name="Login" onclick="validateForm()" value="Login">
+         <input type="button" id="loginButton" name="Login" onclick="guestLogin()" value="Login as Guest" style="margin-left:185px">
+      </form>
+   </div>
+   
+   <div id="welcome">
+      <img id="welcomepic" src="img/Welcome2.png" alt="Welcome!">
+   </div>
+
+   
+   <div id="pageFill">
+      <div id="spacer">
+   </div>
+
+      <br>
+   <div id="hiddenSection">
+   </div>
+   <div id="dynamicSection">
+   </div>
+
+</body>
+
+<html>

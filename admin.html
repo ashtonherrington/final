@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">    
+   <link rel="stylesheet" type="text/css" href="admin.css">
+   <script src="admin.js"></script>   
+   <title>Welcome to my homepage</title> 
+</head>
+<body>
+   <div id="sidebar">
+      
+      <a href="admin.html">
+         <div id="admin" class="current">
+         </div>
+      </a>
+
+      <a href="myCode.html">
+         <div id="addedContent" class="current">
+         </div>
+      </a>
+      
+      <a href="artwork.html">
+         <div>
+            <img id='pictures' src='img/artwork.png' alt='my art'>
+         </div>
+      </a>
+
+      <a href="hobbies.html">
+         <div>
+            <img id='pictures' src='img/hobbies.png' alt='hobbies'>
+         </div>
+      </a>
+
+      <a href="JobsFeed.php">
+         <div id="page">
+            <img id='pictures' src='img/JobFeed.png' alt='job feed'>
+         </div>
+      </a>
+
+      <a href="main.html">
+         <div id="page">
+            <img id='pictures' src='img/aboutMe.png' alt='job feed'>
+         </div>
+      </a>
+
+      <a href="page6.html">
+         <div id="page">
+           
+         </div>
+      </a>
+
+      <a href="page7.html">
+         <div id="">
+           
+         </div>
+      </a>     
+
+   </div>
+   
+   <div id="spacer">
+    
+   </div>
+   
+   <div id="pageFill">
+      <div id="logTheeOut">
+      </div>
+      <div id="mainContent">
+               
+         <b>Enter new user</b>
+         <br><br>
+          
+         <form id="createNewUser" action = "newUser.php" style="float:left" method = "GET">
+         Enter username:<input type="text" name="newUser" style="margin-left: 42px"><br><br>
+         Enter password:<input type="password" name="newPW" style="margin-left: 42px">
+         <input type="button" style="margin-left:20px" value="Submit" onclick="validateForm()">
+         </form>
+         <div id="newResponse" style="float:right; margin-left:200px">
+          </div>
+         <br><br><br> 
+        
+
+      </div>
+   </div>
+   <div id="hiddenSection"></div>
+   <div id="shownSection">
+   </div>
+  
+
+ 
+
+</body>
+
+<html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">    
+   <link rel="stylesheet" type="text/css" href="myCode.css">
+   <script src="myCode.js"></script>   
+   <title>Welcome to my homepage</title> 
+</head>
+<body>
+   <div id="sidebar">
+      
+      <a href="admin.html">
+         <div id="admin">
+         </div>
+      </a>
+
+      <a href="myCode.html">
+         <div id="addedContent" class="current">
+         </div>
+      </a>
+      
+      <a href="artwork.html">
+         <div>
+            <img id='pictures' src='img/artwork.png' alt='my art'>
+         </div>
+      </a>
+
+      <a href="hobbies.html">
+         <div>
+            <img id='pictures' src='img/hobbies.png' alt='hobbies'>
+         </div>
+      </a>
+
+      <a href="JobsFeed.php">
+         <div id="page">
+            <img id='pictures' src='img/JobFeed.png' alt='job feed'>
+         </div>
+      </a>
+
+      <a href="main.html">
+         <div id="page">
+            <img id='pictures' src='img/aboutMe.png' alt='job feed'>
+         </div>
+      </a>
+
+      <a href="page6.html">
+         <div id="page">
+           
+         </div>
+      </a>
+
+      <a href="page7.html">
+         <div id="">
+           
+         </div>
+      </a>     
+
+   </div>
+   
+   <div id="spacer">
+    
+   </div>
+   
+   <div id="pageFill">
+      <div id="logTheeOut">
+      </div>
+      <div id="mainContent">
+               
+         I seek to excel in all that I do. I would greatly appriciate any feedback regarding our interview as well as any potentional deficiencies you noted so I may continue to improve myself.<br><br>
+          
+         <b>General Feedback:</b>
+         <div id="feedback1">
+         </div>
+         <form id="setFeedback1" action = "setFeedback.php" method = "POST">
+         <input type="hidden" name="whichFeedback" value="feedback1"><br>
+         <textarea rows="5" style="width:90%; margin-left: 20px" name="inputText"></textarea><br>
+         <input type="submit" style="margin-left:20px" value="Submit">
+         </form>
+
+         <br><br><br>
+      
+         A program designed to manage Library books, I created this for the final project of my first C++ class <br><a href="DLs/Library.zip" target="_blank">Download</a> Library.zip
+         <br><br>
+         <b>Feedback:</b>
+         <div id="feedback2">
+         </div>     
+         <form id="setFeedback2" action = "setFeedback.php" method = "POST">
+         <input type="hidden" name="whichFeedback" value="feedback2"><br>
+         <textarea rows="5" style="width:90%; margin-left: 20px" name="inputText"></textarea><br>
+         <input type="submit" style="margin-left:20px" value="Submit">
+         </form>
+
+         <br><br><br>
+
+         A small Linux based dungeon crawl (MUD), I created this for the final project of my second C++ class <br><a href="DLs/Dungeon_Crawl.zip" target="_blank">Download</a> Dungeon_Crawl.zip
+         <br><br>
+         <b>Feedback:</b>
+         <div id="feedback3">
+         </div>     
+         <form id="setFeedback3" action = "setFeedback.php" method = "POST">
+         <input type="hidden" name="whichFeedback" value="feedback3"><br>
+         <textarea rows="5" style="width:90%; margin-left: 20px" name="inputText"></textarea><br>
+         <input type="submit" style="margin-left:20px" value="Submit">
+         </form>
+
+      </div>
+   </div>
+   <div id="hiddenSection"></div>
+   <div id="shownSection">
+   </div>
+  
+
+ 
+
+</body>
+
+<html>
